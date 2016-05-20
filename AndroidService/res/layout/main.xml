@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Start Service"
+		android:layout_width="wrap_content"
+		android:id="@+id/buttonStartService"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Stop Service"
+		android:layout_width="wrap_content"
+		android:id="@+id/buttonStopService"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Bind Service"
+		android:layout_width="wrap_content"
+		android:id="@+id/buttonBindService"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Unbind Service"
+		android:layout_width="wrap_content"
+		android:id="@+id/buttonUnbindService"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Get Current Number"
+		android:layout_width="wrap_content"
+		android:id="@+id/buttonGetCurrentNumber"/>
+
+</LinearLayout>
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.myapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk 
+        android:minSdkVersion="8" 
+        android:targetSdkVersion="21" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<service
+			android:name=".AtyService">
+		</service>
+		<activity
+			android:name=".RadioGroupView">
+		</activity>
+		<activity
+			android:name=".CheckBoxView">
+		</activity>
+		<activity
+			android:name=".Datepicker">
+		</activity>
+		<activity
+			android:name=".Timepicker">
+		</activity>
+		<activity
+			android:name=".AtySpinner">
+		</activity>
+		<activity
+			android:name=".AtyProgressBar">
+		</activity>
+		<activity
+			android:name=".AtyAutoCompleteTextView">
+		</activity>
+		<activity
+			android:name=".AtySeekBar">
+		</activity>
+		<activity
+			android:name=".AtyGridView">
+		</activity>
+		<activity
+			android:name=".AtyProgressDialog">
+		</activity>
+		<activity
+			android:name=".AtyNotification">
+		</activity>
+		<activity
+			android:name=".AtyNotificationNew">
+		</activity>
+		<activity
+			android:name=".AtyScrollView">
+		</activity>
+		<activity
+			android:name=".AtyServiceMyService">
+		</activity>
+		<activity
+			android:name=".AtyRatingBar">
+		</activity>
+		<activity
+			android:name=".AtyImageSwitcher">
+		</activity>
+		<activity
+			android:name=".AtyGallery">
+		</activity>
+		<activity
+			android:name=".AtyEditText">
+		</activity>
+		<activity
+			android:name=".AtyBaseAdapter">
+		</activity>
+		<activity
+			android:name=".AtyBroadCast">
+		</activity>
+		<activity
+			android:name=".AtyToast">
+		</activity>
+		<activity
+			android:name=".AtyCustomView">
+		</activity>
+		<activity
+			android:name=".AtyTouch">
+		</activity>
+    </application>
+
+</manifest>

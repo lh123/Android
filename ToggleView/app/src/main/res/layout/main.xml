@@ -1,0 +1,16 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:lh="http://schemas.android.com/apk/res/com.lh.mytoggle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center">
+
+    <com.lh.mytoggle.ToggleView
+		android:id="@+id/toggleView"
+		lh:switch_background="@drawable/switch_background"
+		lh:slider_background="@drawable/slide_button_background"
+		lh:status="false"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

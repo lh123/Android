@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textMultiLine"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:height="100dp"
+		android:id="@+id/mainEditText"/>
+
+	<Button
+		android:id="@+id/btnGet"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="翻译"/>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="–&gt;"
+			android:layout_centerInParent="true"
+			android:id="@+id/mainTextView1"/>
+
+		<Spinner
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_toLeftOf="@id/mainTextView1"
+			android:id="@+id/mainSpinnerYuan"/>
+
+		<Spinner
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_toRightOf="@id/mainTextView1"
+			android:id="@+id/mainSpinnerAim"/>
+
+	</RelativeLayout>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/mainTextView"
+			android:textIsSelectable="true"
+			android:textSize="18sp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"/>
+
+	</ScrollView>
+
+</LinearLayout>
+

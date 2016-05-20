@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="15dp">
+
+	<EditText
+		android:id="@+id/mainEditText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="请输入内容"/>
+
+	<Button
+		android:id="@+id/mainButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="取消"
+		android:layout_below="@id/mainEditText"
+		android:layout_alignParentRight="true"/>
+	<Button
+		android:id="@+id/mainButton2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="确定"
+		android:layout_marginRight="20dp"
+		android:layout_toLeftOf="@id/mainButton"
+		android:layout_below="@id/mainEditText"/>
+
+</RelativeLayout>
+

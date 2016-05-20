@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="登陆"
+		android:id="@+id/mainButtonlogn"/>
+
+	<Button
+		android:id="@+id/mainButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="获取容量"/>
+
+	<ProgressBar
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/mainProgressBar"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:text="获取列表"
+			android:id="@+id/mainButtonList"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:text="新建文件夹"
+			android:id="@+id/mainButtonCreatDir"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:text="返回上级"
+			android:id="@+id/mainButtonBack"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:text="上传文件"
+			android:layout_weight="1.0"
+			android:id="@+id/mainButtonUpLoad"/>
+
+	</LinearLayout>
+
+	<ListView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/mainListView1"/>
+
+</LinearLayout>
+

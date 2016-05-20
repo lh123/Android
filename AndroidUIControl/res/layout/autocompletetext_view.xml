@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<AutoCompleteTextView
+		android:id="@+id/autocompletetextview"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+	</AutoCompleteTextView>
+	<MultiAutoCompleteTextView
+		android:id="@+id/multiAutoCompleteTextView"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+	</MultiAutoCompleteTextView>
+
+</LinearLayout>
+

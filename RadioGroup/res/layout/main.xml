@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RadioGroup
+		android:id="@+id/mainRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+		<RadioButton
+			android:id="@+id/mainRadioButton1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="剪刀"
+			android:checked="true"/>
+		<RadioButton
+			android:id="@+id/mainRadioButton2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="石头"/>
+		<RadioButton
+			android:id="@+id/mainRadioButton3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="布"/>
+	</RadioGroup>
+</LinearLayout>

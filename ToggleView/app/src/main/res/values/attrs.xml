@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="ToggleView">
+        <!-- Specifies a layout to use for the "close" item at the starting edge. -->
+        <attr name="switch_background" format="reference" />
+		<attr name="slider_background" format="reference" />
+		<attr name="status" format="boolean" />
+    </declare-styleable>
+</resources>

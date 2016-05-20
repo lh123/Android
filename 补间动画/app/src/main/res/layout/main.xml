@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ImageView
+		android:id="@+id/mainImageView"
+		android:src="@drawable/ic_launcher"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"/>
+
+	<LinearLayout
+		android:id="@+id/mainLinearLayout"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:onClick="alpha"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="alpha"/>
+
+		<Button
+			android:onClick="trans"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="trans"/>
+
+		<Button
+			android:onClick="rotate"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="rotate"/>
+
+		<Button
+			android:onClick="scale"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="scale"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_below="@+id/mainLinearLayout"
+		android:onClick="set"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="set"
+		android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+	<com.mycompany.myapp.CustomView
+		android:id="@+id/customView"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:padding="10dp"/>
+    <com.mycompany.myapp.CustomViewGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</com.mycompany.myapp.CustomViewGroup>
+</LinearLayout>

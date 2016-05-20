@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="你喜欢哪几门学科？"
+		android:layout_width="wrap_content"
+		android:textSize="30sp"/>
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="语文"
+		android:id="@+id/cbYuWen"/>
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/cbMath"
+		android:text="数学"/>
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/cbPhysics"
+		android:text="物理"/>
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/cbChemical"
+		android:text="化学"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="提交"
+		android:layout_width="wrap_content"
+		android:id="@+id/cbButtonSubmit"/>
+
+</LinearLayout>
+
